@@ -1,284 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cv</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CV avec html & CSS</title>
+   
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <main class="main-content">
-        <section class="left-section">
-            <div class="left-content">
-                <div class="profile">
-                    <h2 class="name">Mariam Touré</h2>
-                    <p class="career">Developpeur web</p>
-                    <div class="image">
-                        <img src="./profil.jpg" alt="">
-                    </div>
-
-                   
+    <div class="container">
+        <div class="left_Side">
+            <div class="profile">
+                <h2>Mariam Kanoute <br><span>Developpeur web</span></h2>
+                <div class="imgP">
+                    <img src="image.jpg" alt="photo de profile">
                 </div>
-                <div class="contact-info">
-                    <h3 class="main-title">Information personnelles</h3>
-                  
-                    <ul>
-                        <li>
-                            <i class="fa fa-phone"></i>
-                           (+223)79835688
-                        </li>
-                        <li>
-                            <i class="fa fa-fax"></i>
-                            mariamt@gmail.com
-                        </li>
-                       
-                        <li>
-                            <i class="fa fa-facebook"></i>
-                            www.facebook.com/mariam
-                        </li>
-                        
-                        <li>
-                            <i class="fa fa-map-marker"></i>
-                           Badalabougou porte:35, rue:56
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills-section">
-                    <h3 class="main-title">Informatique</h3>
-                    <ul>
-                        <li>
-                            <p class="skill-title">Javascript</p>
-                            <div class="progress-bar">
-                                <div class="progress js-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Photoshop</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Java</p>
-                            <div class="progress-bar">
-                                <div class="progress j-progress"></div>
-                            </div>
-                        </li>
-                        
-                        <li>
-                            <p class="skill-title">Ionic</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Node js</p>
-                            <div class="progress-bar">
-                                <div class="progress n-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">html/css</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                        
-                        
-                    </ul>
-                </div>
-
-                <!--Ajout langues-->
-
-                <div class="skills-section">
-                    <h3 class="main-title">Langue</h3>
-                    <ul>
-                        
-                        <li>
-                            <p class="skill-title">Anglais</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                       
-                        <li>
-                            <p class="skill-title">Français</p>
-                            <div class="progress-bar">
-                                <div class="progress n-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Bambara</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                        
-                        
-                    </ul>
-                </div>
-
-             
-
-                
             </div>
-        </section>
-        <section class="right-section">
+            <div class="contactInfo">
+                <h3 class="titre">Informations<br>Personnelles</h3>
+                <ul>
+                    <li>
+                        <h3>Télephone</h3>
+                        <span class="text">(+223)79835688</span>
+                    </li>
+                    <li>
+                        <h3>Email</h3>
+                        <span class="text">mariamt@gmail.com</span>
+                    </li>
+                    <li>
+                        <h3>Adresse</h3>
+                        <span class="text"> Badalabougou porte:35, rue:56</span>
+                    </li>
 
-            <div class="right-main-content">
-                <section class="about sect">
-                    <h2 class="right-title">Profil</h2>
-                    <p class="para">
-                        Developpeur web maîtrise les languages de programmations orienté object telque Java ainsi que certain système 
-                        de gestionnaire de base de données comme mysql, postgree et oracle
-                         a le sens de l'ecoute et du leadership . <br>
-                        <br>
-                        
-                    </p>
-                </section>
-
-                <section class="experince sect">
-                    <h2 class="right-title">Experience </h2>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Orange Mali</h5>
-                            <p class="para">2017 - 2019</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">Developpeur junior</h5>
-                                <p class="para">
-                                   - Developpement d'application 
-                                   - Recherche de solution adapter pour les problèmes
-                                   - Web designer
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Google Inc</h5>
-                            <p class="para">2019 - 2020</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">Développeur Web principal</h5>
-                                <p class="para">
-                                    Gère l'ensemble d'un projet de site internet, qu'il s'agisse d'une création ou d'une refonte.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Apple</h5>
-                            <p class="para">2020 - Present</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">Developpeur Sénior</h5>
-                                <p class="para">
-                                    - Developpement d'application 
-                                   - Recherche de solution adapter pour les problèmes
-                                   - Web designer.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="education sect">
-                    <h2 class="right-title">Formation</h2>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Lycée LBAD</h5>
-                            <p class="para">2010 - 2011</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">Baccalauriat</h5>
-                                <p class="para">
-                                    Obtention du diplôme de Baccalauriat
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   
-
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Harvard University</h5>
-                            <p class="para">2014 - 2016</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">Masteur</h5>
-                                <p class="para">
-                                   Obtention de la licence et du masteur en tant que developpeur web avec la mention Très Bien.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </section>
-                
-                <!---ajout competences-->
-                <section class="experince sect">
-                    <h2 class="right-title">Compétences</h2>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">2011 - 2016</h5>
-                            <p class="para"></p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2"> Les compétences aquises</h5>
-                                <p class="para">
-                                    Développer des sites et applications web, du concept initial à la configuration finale,
-                                    Tester le bon fonctionnement du site ou de la web app de tous les points de vue (testing)
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline"> </div>
-                    
-                    
-                </section>
-
-                <!--Ajout c'entres d'intêret-->
-
-                <section class="experince sect">
-                    <h2 class="right-title">Centres d'intêret</h2>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title-2"></h5>
-                            <p class="para"></p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <p class="para">
-                                    Aime les jeux videos,
-                                    La lecteur,
-                                    Le voyage,
-                                    Le maquettage.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline"> </div>
-                    
-                    
-                </section>
+                </ul>
             </div>
 
+            <div class="contactInfo competences">
+                <h3 class="titre">Informatiques</h3>
+                <ul>
+                    <li>Language et
+                        framework(Javascript,<br>boobstrap,jQuery,AngularJS,PHP,<br>Python,Djzngo,NodeJS,ExpressJS,<br>Drupal,MangoDB,MySQL)
+                        5/5</li>
+                    <li>Outils d'integration et de deploiement continu(GitHub Actions, GitLab CI) 5/5</li>
+                    <li>CMS(Wordpress,Drupal,magendo) 4/5</li>
+                   
+                </ul>
+                <div class="contactInfo langues">
+                    <h3 class="titre">Langues</h3>
+                    <ul>
+                        <li>
+                            <span class="text">Français</span>
+                            <span class="percent">
+                                <div style="width: 90%;"></div>
+                            </span>
 
-           
-        </section>
-    </main>
+                        </li>
+                        <li>
+                            <span class="text">Anglais</span>
+                            <span class="percent">
+                                <div style="width: 50%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Bambara</span>
+                            <span class="percent">
+                                <div style="width: 70%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="right_Side">
+            <div class="about">
+                <h2 class="titre2">Profile</h2>
+                <p>Developpeur web maîtrise les languages de programmations orienté object telque Java ainsi que certain
+                    système
+                    de gestionnaire de base de données comme mysql, postgree et oracle
+                    a le sens de l'ecoute et du leadership .</p>
+            </div>
+            <div class="experience">
+                <h2 class="titre2">Experiences professionnelles</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2017 - 2019</h5>
+
+                    </div>
+                    <div class="text">
+                        <h4>Developpeur junior </h4>
+                        <h5>A Orange Mali</h5>
+                        <p> Developpement d'application,
+                            Recherche de solution adapter pour les problèmes,
+                            Web designer.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2019 - 2020</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Développeur Web principal </h4>
+                        <h5>A Google Inc</h5>
+                        <p>Gère l'ensemble d'un projet de site internet,
+                            qu'il s'agisse d'une création ou d'une refonte.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2020 - Present</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Developpeur Sénior </h4>
+                        <h5>A Apple</h5>
+                        <p> Developpement d'application,
+                            Recherche de solution adapter pour les problèmes,
+                            Web designer.</p>
+                    </div>
+                </div>
+
+            </div><br><br>
+            <div class="formation">
+                <h2 class="titre2">Formations</h2>
+                <div class="box">
+                    <div class="year_study">
+                        <h5>2010 - 2011</h5>
+                    </div>
+                    <div class="text">
+                        <p>Baccalauriat au lycée LBAD</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_study">
+                        <h5>2014 - 2016</h5>
+                    </div>
+                    <div class="text">
+                        <p>Masteur et Licence à harvard </p>
+                    </div>
+                </div>
+            </div><br><br>
+
+            <div class="competences">
+                <h2 class="titre2">Les compétences aquises</h2>
+                <div class="text">
+                    <p>Développer des sites et applications web, du concept initial à la configuration finale,
+                        Tester le bon fonctionnement du site ou de la web app de tous les points de vue (testing).</p>
+                </div>
+            </div><br><br>
+            <div class="centre">
+                <h2 class="titre2">Centre d'intêret</h2>
+                <div class="text">
+                    <p> Aime les jeux videos <br>
+                        La lecteur<br>
+                        Le voyage<br>
+                        Le maquettage.</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    </div>
+
 </body>
+
 </html>
